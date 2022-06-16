@@ -43,10 +43,10 @@ function dragenter(){
 }
 function dragover(){
     // log('DROP ZONE OVER');
-    // this.classList.add('over');
-    // const cardBeingDragged = document.querySelector('.is-dragging');
+    this.classList.add('over');
+    const cardBeingDragged = document.querySelector('.is-dragging');
 
-    // this.appendChild(cardBeingDragged);
+     this.appendChild(cardBeingDragged);
 
 }
 function dragleave(){
